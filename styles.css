@@ -2,16 +2,20 @@
   font-family: 'Game of Thrones';
   src: url("font/GameOfThrones.ttf");
 }
+
 h1 {
   font-family: Game of Thrones;
   color: #fff;
 }
+
 p {
   color: #fff;
 }
+
 body {
   background-image: url("img/game-of-thrones-background.jpg");
 }
+
 #holder {
   height: 350px;
   width: 850px;
@@ -20,53 +24,16 @@ body {
   border: 2px solid #a4a4a4;
   margin: 0 auto;
 }
+
 #place {
   position: relative;
   margin: 20px;
 }
-#place a {
-  font-size: 10px;
-  padding: 7px;
-  margin-bottom: 30px;
-  margin-left: 15px;
-  text-align: right;
-}
-#place li {
-  list-style: none outside none;
-  position: absolute;
-  text-align: right;
-}
-#place li hover {
-  background-color: #ff0;
-}
-#place .seat {
-  background-image: url("img/seat.png");
-  background-size: 35px;
-  background-repeat: no-repeat;
-  background-position: 0% 100% no-repeat scroll transparent;
-  height: 55px;
-  width: 50px;
-  display: block;
-}
+
 /*Booked Seats */
-#place .selectedSeat {
-  background-image: url("img/booked.png");
-  background-repeat: no-repeat;
-  background-size: 45px;
-  background-position: left;
-}
-#place .selectingSeat {
-  background-image: url("img/got.png");
-  background-repeat: no-repeat;
-  background-size: 40px;
-  background-position: top left;
-}
-#place .row-3,
-#place .row-4 {
-  margin-top: 40px;
-}
+
 #seatDescription li {
-/*verticle-align  middle */
+  /*verticle-align  middle */
   list-style: none outside none;
   padding-left: 35px;
   height: 100px;
@@ -75,29 +42,34 @@ body {
   float: center;
   color: #fff;
 }
+
 #key {
   padding: 20px;
   width: 100%;
 }
+
 ul {
   padding: 10px;
 }
+
 img {
   margin: 5px;
 }
+
 form {
   width: 100%;
   margin: auto;
   align: center;
   display: block;
-  text-align: center;
+  text-align: right;
   padding: 10px;
 }
+
 label {
   color: #fff;
   margin-right: 10px;
 }
+
 .container {
   text-align: center;
-color
 }

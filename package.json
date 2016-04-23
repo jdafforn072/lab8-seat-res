@@ -1,0 +1,26 @@
+{
+  "name": "lab8-w-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdafforn072/lab8-seat-res.git"
+  },
+  "author": "jessica d",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdafforn072/lab8-seat-res/issues"
+  },
+  "homepage": "https://github.com/jdafforn072/lab8-seat-res#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-stylus": "^2.3.1",
+    "gulp-uncss": "^1.0.5"
+  }
+}
